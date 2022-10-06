@@ -25,9 +25,13 @@
   color: #fff;
   background-image: radial-gradient(circle, #2DA4E7, #2F80ED);
 }
-
+/* a forma que você esconde ou exibe coisas, no css, vai impactar no nvda*/
 .contatoCampo-checkbox {
-  display: none;
+  /* display: none;
+  visibility: hidden; */
+  left: -9999px;
+  position: absolute;
+  opacity: 0;
 }
 
 .contatoCampo-icone {

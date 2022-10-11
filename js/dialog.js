@@ -7,7 +7,7 @@ var dialogOverlay = document.querySelector('.dialogNewsletter-overlay');
 
 // Quando abrir a dialog...
 btnAbreDialog.addEventListener('click', function() {
-  dialog.classList.add('dialogNewsletter--aberto');
+  console.log('----->',dialog.classList.add('dialogNewsletter--aberto'));
 });
 
 function fechandoDialog() {
